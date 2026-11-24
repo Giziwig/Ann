@@ -23,7 +23,7 @@ const letters = {
 };
 
 // Bouquet click animation toggle (Runs on index.html)
-const bouquet = document.getElementById("bouqet");
+const bouqet = document.getElementById("bouqet");
 if (bouqet) {
     bouqet.addEventListener("click", () => {
         bouqet.classList.toggle("open");

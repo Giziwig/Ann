@@ -1,39 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dear Ann</title>
+    <title>Your Letter</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <main class="home">
-        <h1>...for Ann</h1>
-        <p>Click the bouquet to reveal your pictures, then open your letters!</p>
-
-        <!-- Interactive Bouquet Container -->
-        <div class="bouquet-container" id="bouquet">
-            <div class="photos-wrapper">
-                <img src="ann1.jpg" class="photo photo-1" alt="Photo 1" />
-                <img src="ann2.jpg" class="photo photo-2" alt="Photo 2" />
-                <img src="ann3.jpg" class="photo photo-3" alt="Photo 3" />
-                <img src="ann4.jpg" class="photo photo-4" alt="Photo 4" />
-                <img src="ann5.jpg" class="photo photo-5" alt="Photo 5" />
+    <main class="letter-page">
+        <div class="letter-container">
+            <img
+                src="envelope-opening.GIF"
+                alt="Opening Letter"
+                class="opening-gif"
+            />
+            <div class="letter-text hidden">
+                <h1 id="letter-title"></h1>
+                <p id="letter-message"></p>
             </div>
-            <img src="bouquetwrap.png" class="bouquet-wrap" alt="Bouquet Wrapper" />
         </div>
-
-        <!-- Letter Envelopes Section -->
-        <section class="envelope-grid">
-            <a href="letter.html?letter=miss-you" class="envelope">
-                <img src="miss-you.png" alt="Open When You Miss Me" />
-                <p>Heart Warmer</p>
-            </a>
-            <a href="letter.html?letter=bad-day" class="envelope">
-                <img src="bad-day.png" alt="Open When You're Having A Bad Day" />
-                <p>...for you</p>
-            </a>
-        </section>
+        <a href="index.html" class="back-link">Back to Envelopes</a>
     </main>
     <script src="script.js"></script>
 </body>

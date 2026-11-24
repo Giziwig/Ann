@@ -187,7 +187,7 @@ a {
 }
 
 /* Interactive Bouquet */
-.bouquet-container {
+.bouqet-container {
     position: relative;
     width: 280px;
     height: 380px;
@@ -198,7 +198,7 @@ a {
     align-items: flex-end;
 }
 
-.bouquet-wrap {
+.bouqet-wrap {
     position: relative;
     width: 100%;
     height: auto;
@@ -230,27 +230,27 @@ a {
     transform: translateY(40px) scale(0.3);
 }
 
-.bouquet-container.open .photo {
+.bouqet-container.open .photo {
     opacity: 1;
 }
 
-.bouquet-container.open .photo-1 {
+.bouqet-container.open .photo-1 {
     transform: translateY(-210px) translateX(-125px) rotate(-20deg) scale(1);
 }
 
-.bouquet-container.open .photo-2 {
+.bouqet-container.open .photo-2 {
     transform: translateY(-245px) translateX(-65px) rotate(-10deg) scale(1);
 }
 
-.bouquet-container.open .photo-3 {
+.bouqet-container.open .photo-3 {
     transform: translateY(-260px) translateX(0px) rotate(0deg) scale(1);
 }
 
-.bouquet-container.open .photo-4 {
+.bouqet-container.open .photo-4 {
     transform: translateY(-245px) translateX(65px) rotate(10deg) scale(1);
 }
 
-.bouquet-container.open .photo-5 {
+.bouqet-container.open .photo-5 {
     transform: translateY(-210px) translateX(125px) rotate(20deg) scale(1);
 }
 

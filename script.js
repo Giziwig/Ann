@@ -19,7 +19,7 @@ const letters = {
             So I wanted to ask you directly: May I be your boyfriend?
             Would you do me the honor of being my girlfriend and officially taking this next step together?`,
         showChoices: true
-    },
+    }
 };
 
 // Bouquet click animation toggle (Runs on index.html)
@@ -55,7 +55,7 @@ if (letterTitleElem) {
             const noBtn = document.getElementById("no-btn");
 
             noBtn.addEventListener("click", () => {
-                yesScale += 0.6; // Increase size multiplier on each click
+                yesScale += 0.6;
                 yesBtn.style.transform = `scale(${yesScale})`;
                 yesBtn.style.zIndex = "10";
 
@@ -78,7 +78,7 @@ if (letterTitleElem) {
     const gif = document.querySelector(".opening-gif");
 
     setTimeout(() => {
-        if (gif) gif.src = "images/letter-final.png";
+        if (gif) gif.src = "letter-final.png";
         if (letterText) letterText.classList.remove("hidden");
     }, 1200);
 }
